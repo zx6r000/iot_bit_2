@@ -18,7 +18,7 @@ basic.forever(function () {
             `)
     }
     if (ESP8266_IoT.kidsiotState(false)) {
-        ESP8266_IoT.connectKidsiot("\t8045Rcjtu8gDvnPf", "1")
+        ESP8266_IoT.connectKidsiot("8045Rcjtu8gDvnPf", "1")
     } else {
         basic.showLeds(`
             # # # # #
